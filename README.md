@@ -1,4 +1,3 @@
-````markdown
 # Platoon Joining Using Deep Reinforcement Learning
 A deep reinforcement learning–based strategy for autonomous vehicle platoon joining on highways.
 
@@ -50,6 +49,4 @@ Use TensorBoard to visualize training or testing logs:
 
 ```bash
 tensorboard --logdir=log/<test_or_train>/<config_name>
-```
-
 ```
