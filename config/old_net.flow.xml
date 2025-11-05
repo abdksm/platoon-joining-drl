@@ -1,0 +1,86 @@
+<additional>
+    <flow id="m" begin="0" end="10000000" departPos="base" departSpeed="max" departLane="0" vehsPerHour="500" type="vmix" route="m" />
+	<flow id="p_m" begin="0" end="10000000" departPos="base" departSpeed="max" departLane="1" vehsPerHour="1500" type="cav2" route="m" />
+</additional>
+
+<!-- <additional>
+    <flow id="m_1" begin="0" end="62500" departPos="base" departSpeed="max" departLane="0" vehsPerHour="500" type="vmix" route="m" />
+    <flow id="p_m_1" begin="0" end="62500" departPos="base" departSpeed="max" departLane="1" vehsPerHour="500" type="cav2" route="m" />
+
+    <flow id="m_2" begin="62500" end="125000" departPos="base" departSpeed="max" departLane="0" vehsPerHour="500" type="vmix" route="m" />
+    <flow id="p_m_2" begin="62500" end="125000" departPos="base" departSpeed="max" departLane="1" vehsPerHour="1000" type="cav2" route="m" />
+
+    <flow id="m_3" begin="125000" end="187500" departPos="base" departSpeed="max" departLane="0" vehsPerHour="500" type="vmix" route="m" />
+    <flow id="p_m_3" begin="125000" end="187500" departPos="base" departSpeed="max" departLane="1" vehsPerHour="1500" type="cav2" route="m" />
+
+    <flow id="m_4" begin="187500" end="250000" departPos="base" departSpeed="max" departLane="0" vehsPerHour="500" type="vmix" route="m" />
+    <flow id="p_m_4" begin="187500" end="250000" departPos="base" departSpeed="max" departLane="1" vehsPerHour="2000" type="cav2" route="m" />
+
+    <flow id="m_5" begin="250000" end="312500" departPos="base" departSpeed="max" departLane="0" vehsPerHour="1000" type="vmix" route="m" />
+    <flow id="p_m_5" begin="250000" end="312500" departPos="base" departSpeed="max" departLane="1" vehsPerHour="500" type="cav2" route="m" />
+
+    <flow id="m_6" begin="312500" end="375000" departPos="base" departSpeed="max" departLane="0" vehsPerHour="1000" type="vmix" route="m" />
+    <flow id="p_m_6" begin="312500" end="375000" departPos="base" departSpeed="max" departLane="1" vehsPerHour="1000" type="cav2" route="m" />
+
+    <flow id="m_7" begin="375000" end="437500" departPos="base" departSpeed="max" departLane="0" vehsPerHour="1000" type="vmix" route="m" />
+    <flow id="p_m_7" begin="375000" end="437500" departPos="base" departSpeed="max" departLane="1" vehsPerHour="1500" type="cav2" route="m" />
+
+    <flow id="m_8" begin="437500" end="500000" departPos="base" departSpeed="max" departLane="0" vehsPerHour="1000" type="vmix" route="m" />
+    <flow id="p_m_8" begin="437500" end="500000" departPos="base" departSpeed="max" departLane="1" vehsPerHour="2000" type="cav2" route="m" />
+
+    <flow id="m_9" begin="500000" end="562500" departPos="base" departSpeed="max" departLane="0" vehsPerHour="1500" type="vmix" route="m" />
+    <flow id="p_m_9" begin="500000" end="562500" departPos="base" departSpeed="max" departLane="1" vehsPerHour="500" type="cav2" route="m" />
+
+    <flow id="m_10" begin="562500" end="625000" departPos="base" departSpeed="max" departLane="0" vehsPerHour="1500" type="vmix" route="m" />
+    <flow id="p_m_10" begin="562500" end="625000" departPos="base" departSpeed="max" departLane="1" vehsPerHour="1000" type="cav2" route="m" />
+
+    <flow id="m_11" begin="625000" end="687500" departPos="base" departSpeed="max" departLane="0" vehsPerHour="1500" type="vmix" route="m" />
+    <flow id="p_m_11" begin="625000" end="687500" departPos="base" departSpeed="max" departLane="1" vehsPerHour="1500" type="cav2" route="m" />
+
+    <flow id="m_12" begin="687500" end="750000" departPos="base" departSpeed="max" departLane="0" vehsPerHour="1500" type="vmix" route="m" />
+    <flow id="p_m_12" begin="687500" end="750000" departPos="base" departSpeed="max" departLane="1" vehsPerHour="2000" type="cav2" route="m" />
+
+    <flow id="m_13" begin="750000" end="812500" departPos="base" departSpeed="max" departLane="0" vehsPerHour="2000" type="vmix" route="m" />
+    <flow id="p_m_13" begin="750000" end="812500" departPos="base" departSpeed="max" departLane="1" vehsPerHour="500" type="cav2" route="m" />
+
+    <flow id="m_14" begin="812500" end="875000" departPos="base" departSpeed="max" departLane="0" vehsPerHour="2000" type="vmix" route="m" />
+    <flow id="p_m_14" begin="812500" end="875000" departPos="base" departSpeed="max" departLane="1" vehsPerHour="1000" type="cav2" route="m" />
+
+    <flow id="m_15" begin="875000" end="937500" departPos="base" departSpeed="max" departLane="0" vehsPerHour="2000" type="vmix" route="m" />
+    <flow id="p_m_15" begin="875000" end="937500" departPos="base" departSpeed="max" departLane="1" vehsPerHour="1500" type="cav2" route="m" />
+
+    <flow id="m_16" begin="937500" end="1000000" departPos="base" departSpeed="max" departLane="0" vehsPerHour="2000" type="vmix" route="m" />
+    <flow id="p_m_16" begin="937500" end="1000000" departPos="base" departSpeed="max" departLane="1" vehsPerHour="2000" type="cav2" route="m" />
+
+    <flow id="m_17" begin="1000000" end="10000000" departPos="base" departSpeed="max" departLane="0" vehsPerHour="1500" type="vmix" route="m" />
+    <flow id="p_m_17" begin="1000000" end="10000000" departPos="base" departSpeed="max" departLane="1" vehsPerHour="1000" type="cav2" route="m" />
+</additional> -->
+
+
+<!-- originally:
+1000
+1500 
+
+500/500: 2.2
+1000/500: 2.8
+1500/500: 2.8
+2000/500: 3.1
+
+500/1000: 0.1
+1000/1000: 0.4
+1500/1000: 0.8
+2000/1000: 1.5
+
+500/1500: 0.3
+1000/1500: 0.8
+1500/1500: 1.1
+2000/1500: 1.5
+
+500/2000: 1.0
+1000/2000: 1.7
+1500/2000: 2.6
+2000/2000: 2.4
+
+
+
+-->
